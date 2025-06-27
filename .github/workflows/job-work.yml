@@ -3,8 +3,7 @@ name: IGPSport Data Sync To Xingzhe
 on:
   schedule:
     - cron: '0 * * * *'
-  watch:
-    types: started
+  workflow_dispatch:
 
 jobs:
   sync:
